@@ -1,0 +1,30 @@
+#arya {
+  display: none;
+}
+
+#daenerys {
+  display: none;
+}
+#jon {
+  display: none;
+}
+#lannisters {
+  display: none;
+}
+
+.daenerys {
+  color: blue;
+
+}
+
+.arya {
+  color: red;
+}
+
+.jon {
+  color: green;
+}
+
+.jamie {
+  color: gold;
+}

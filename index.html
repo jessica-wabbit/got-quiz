@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Game of Thrones Personality Quiz!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Game of Thrones Personality Quiz!</h1>
+        <p>In the Game of Thrones, you either win or you are Joffrey.</p>
+      </div>
+      <form id="quiz">
+        <label for="age">Age:</label>
+        <select id="age">
+          <option value="1">Under 18</option>
+          <option value="2">18-25</option>
+          <option value="3">26-35</option>
+          <option value="4">36+</option>
+        </select>
+        <br><br>
+        <label for="pet">What kind of Pet do you have?</label>
+        <select id="pet">
+          <option value="1">None, I sent it away.</option>
+          <option value="2">Dragons, because, duh.</option>
+          <option value="3">A faithful Direwolf.</option>
+          <option value="4">Just my inbred children, why do you ask?</option>
+        </select>
+        <br><br>
+        <label for="weapon">What is your weapon of choice?</label>
+        <select id="weapon">
+          <option value="1">A needlepoint sword.</option>
+          <option value="2">Forced diplomacy. Or dragons, whichever works best.</option>
+          <option value="3">Only the finest Valyrian steel blade, of course.</option>
+          <option value="4">Poison, or a broadsword. Whatever's closest.</option>
+        </select>
+        <br><br>
+        <p><strong>What's your ideal climate to live/work in?</strong></p>
+        <div class="radio">
+          <label>
+          <input type="radio" name="climate" value="1" checked>
+          Wintry Woods.
+          </label>
+          <div class="radio">
+            <label>
+            <input type="radio" name="climate" value="2">
+            Desert Plains.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="climate" value="3">
+            A frigid tundra with high elevation.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="climate" value="4">
+            A coastal city.
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-default btn-lg">Which GOT character am I?!</button>
+      </form>
+      <br>
+      <div id="arya">
+        <img src="img/arya-stark.jpg" alt="Arya Stark from GOT." width="500px">
+        <h1>Congratulations! You got <span class="arya">Arya Stark</span>!</h1>
+      </div>
+      <div id="daenerys">
+        <img src="img/daenerys-stormborn.jpg" alt="Daenerys Stormborn from GOT." width="500px">
+        <h1>Congratulations! You got <span class="daenerys">Daenerys Stormborn</span>!</h1>
+      </div>
+      <div id="jon">
+        <img src="img/jon-snow.jpg" alt="Jon Snow from GOT." width="500px">
+        <h1>Congratulations! You got <span class="jon">Jon Snow</span>!</h1>
+      </div>
+      <div id="lannisters">
+        <img src="img/cersei-and-jamie.jpg" alt="Jamie and Cersei Lannister from GOT." width="500px">
+        <h1>Bummer! You got <span class="jamie">Jamie and Cersei Lannister</span>!  You must really suck.</h1>
+      </div>
+    </div>
+  </body>
+</html>
